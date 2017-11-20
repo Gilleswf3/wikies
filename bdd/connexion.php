@@ -1,6 +1,6 @@
 <?php
 
-$connexion = new PDO('mysql:host=localhost;dbname=wikies';'root', '');
+$connexion = new PDO('mysql:host=localhost;dbname=wikis','root', '');
 
 function getNotes() {
     global $connexion;
